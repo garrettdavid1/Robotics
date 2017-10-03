@@ -1,0 +1,16 @@
+body{
+    overflow: hidden;
+}
+#siteContainer{
+    background-color: white;
+    margin: 0px 10vw 0px 10vw;
+    z-index: 2;
+    position: absolute;
+    width: 80vw;
+    height: 100vw;
+    border: 1px solid gray;
+    border-top: none;
+    border-bottom: none;
+    top: 0;
+    background-color: beige;
+}
