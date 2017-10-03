@@ -1,6 +1,9 @@
 $(document).ready(function () {
     var canvas = $('#canvas')[0];
-    var c = canvas.getContext('2d');
+	var c = canvas.getContext('2d');
+	var siteContainer = $('#siteContainer');
+	siteContainer.width = innerWidth * 80;
+	siteContainer.css('height', innerHeight)
 
     canvas.width = innerWidth;
     canvas.height = innerHeight;
